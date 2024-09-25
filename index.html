@@ -3,63 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Delta Official</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Team Delta - Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Team Delta Official</h1>
+        <div class="logo">Team Delta 🌑</div>
         <nav>
-            <ul class="nav-line">
-                <li><a href="#home">Home</a></li>
-                <li><a href="https://t.me/Team_Delta_Official" target="_blank">Join Our Main Channel</a></li>
-                <li><a href="https://t.me/Hii_Admin_Bot" target="_blank">Contact</a></li>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li> <!-- Anchor link to About section -->
+                <li><a href="https://t.me/Team_Delta_Official">Join Channel</a></li>
+                <li><a href="https://t.me/Hii_Admin_Bot">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Welcome to the Lecture Portal</h2>
-            <p>Find all your Class XI and XII lectures here, tailored for JEE Main and Advanced.</p>
-        </section>
-        <br>
-        <section id="Allen Nurture & Enthuse">
-            <h2>Allen Nurture & Enthuse</h2> <br>
-            <div class="buttons">
-                <div class="class-container">
-                    <img src="image/Main Page/Allen.jpg" alt="Allen" class="class-image">
-                    <button onclick="location.href='Allen Nurture & Enthuse.html'" class="class-button">Click Here</button>
-                </div>
-
-            </div>
-        </section> <br> 
-        
-        <h2> Lecture By Top Sir </h2> <br>
-
+        <div class="search">
+            <input type="text" placeholder="Type to Search">
+            <button>Search</button>
         </div>
-        <section id="tips">
-            <h2>How to Clear JEE Main and Advanced</h2>
-            <p>Preparing for JEE Main and Advanced requires a strategic approach. Here are some tips to help you succeed:</p>
-            <ul>
-                <li>Follow a structured study plan and stick to it.</li>
-                <li>Focus on understanding concepts rather than rote learning.</li>
-                <li>Practice regularly with previous years' papers and mock tests.</li>
-                <li>Manage your time effectively during preparation and exams.</li>
-                <li>Stay consistent and avoid procrastination.</li>
-            </ul>
-            <h2>How to Cover Backlogs</h2>
-            <p>Backlogs can be challenging, but with the right strategy, you can overcome them:</p>
-            <ul>
-                <li>Identify the important topics and prioritize them.</li>
-                <li>Allocate specific time slots in your schedule to cover backlogs.</li>
-                <li>Use quality resources and focus on understanding the concepts.</li>
-                <li>Regularly revise and test yourself to ensure retention.</li>
-                <li>Stay motivated and avoid distractions.</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Team Delta Official</p>
-    </footer>
+    </header>
+
+    <section class="main-content">
+        <div class="left-content">
+            <h1>Team Delta<br> </h1>
+            <p>Team Delta is a Telegram channel Which Is Managed By Nomis. It Is The Main Platform Where We Are Going To Upload Lectures for class 11 & 12, Specifically Targeting Jee Main And Advanced Preparation.</p>
+            <button><a href="https://t.me/Team_Delta_Official">JOIN US</a></button>
+        </div>
+        <div class="login-box">
+            <h2>Login Here</h2>
+            <form>
+                <input type="email" placeholder="Enter Email Here" required>
+                <input type="password" placeholder="Enter Password Here" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign up here</a></p>
+            </form>
+            <div class="social-links">
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Add an id to the About section so it can be targeted -->
+    <section id="about" class="about">
+        <h2>About Team Delta</h2>
+        <p>Team Delta is a Telegram channel managed by Nomis. It is the main platform where we are going to upload lectures for Class 11 & 12, specifically targeting JEE Main and Advanced preparation.</p>
+    </section>
+
 </body>
 </html>
